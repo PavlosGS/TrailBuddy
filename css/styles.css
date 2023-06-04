@@ -5,6 +5,20 @@ h1, h2, h3 , h4, h5, h6 {
   p {
     font-family: 'Work Sans', sans-serif;
   }
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #818568;
+  }
+
+  .regular {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #818568;
+  }
+
+
   /* General */
 .customNav {
     position: fixed;
@@ -92,5 +106,27 @@ h1, h2, h3 , h4, h5, h6 {
     color: #fff;
     background-color: #9A7763 !important;
     border-color: #9A7763 !important;
-
   }
+
+  .cropped {
+    padding-top: 48px;
+    width: 430px;
+    height: 550px;
+    object-fit: cover;
+    object-position:top center;
+  }
+
+  .backcolor {
+    background-image: linear-gradient(to right, #304237 , #818568);
+    background-color: rgba(106, 0, 189, .05);
+    padding: 64px 0 0 0;
+  }
+
+  .cream {
+    color:#ECEEDE !important;
+  }
+
+  .center {
+    margin:auto !important;
+    text-align: center;
+}
