@@ -111,7 +111,7 @@ h1, h2, h3 , h4, h5, h6 {
   .cropped {
     padding-top: 48px;
     width: 430px;
-    height: 550px;
+    height: 650px;
     object-fit: cover;
     object-position:top center;
   }
