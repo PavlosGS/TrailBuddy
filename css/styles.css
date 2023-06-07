@@ -135,12 +135,13 @@ h1, h2, h3 , h4, h5, h6 {
 .card {
   background-color: #C1C1BB;
   color: black;
-  margin-bottom: 15%
+  margin-bottom: 15%;
 }
 
 .stars {
   color: #FFD700;
-  margin-bottom: 10px;
+  margin-top: 48px;
+  margin-bottom: 24px;
 }
 
 .star {
@@ -150,4 +151,16 @@ h1, h2, h3 , h4, h5, h6 {
   height: 20px;
   background-image: url('images/star.png');
   background-size: contain;
+}
+
+.shift {
+  position: relative;
+  margin-top:-350px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index:5;
+}
+
+.relative {
+  position: relative;
 }
