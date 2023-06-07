@@ -133,15 +133,14 @@ h1, h2, h3 , h4, h5, h6 {
 
 /* Customer Reviews */
 .card {
-  background-color: #C1C1BB;
-  color: black;
+  background-color:#304237;
+  color:#ECEEDE;
   margin-bottom: 15%;
 }
 
 .stars {
   color: #FFD700;
-  margin-top: 48px;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
 .star {
@@ -163,4 +162,9 @@ h1, h2, h3 , h4, h5, h6 {
 
 .relative {
   position: relative;
+}
+
+.margin {
+  margin-top: 48px;
+  margin-bottom: 24px;
 }
